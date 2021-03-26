@@ -23,7 +23,7 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 ## 程式碼 | Code Sample
 <a href="Exercise.py">Exercise.py</a>
 <br/>
-Eng. Ver: <a href="ExerciseEn.py">ExerciseEn.py</a>
+<a href="ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)
 
 ---
 
