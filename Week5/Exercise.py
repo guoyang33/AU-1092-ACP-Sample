@@ -1,5 +1,5 @@
 """
-程式需要用到的模組: requests、bs4、lxml
+程式需要用到的模組: requests、bs4
 
 說明：
 此程式執行後會在同目錄下創建或"覆寫"一名為"output-publication.txt"的檔案

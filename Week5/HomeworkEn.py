@@ -1,5 +1,5 @@
 """
-Required modules: requests, bs4, lxml
+Required modules: requests, bs4
 
 Introduction:
 After run this program, it will create or overwite named "output-graduation_projects.txt" file on the same directory of this program.
