@@ -17,7 +17,7 @@ Code sample for Asia University 1092 Advanced Computer Programming.
 黃明祥老師: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm">http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm</a>
 <br/>
 #### Eng. Ver
-Make a web-crawler (worm) to fetch the Publication Page of Teacher Wang or Teacher Huang, and put these data into an output file e.g."output.txt".
+Make a web-crawler (worm) to fetch the Publication Page of <b>Teacher Wang</b> or <b>Teacher Huang</b>, and put these data into an output file e.g."output.txt".
 <br/>
 Record all of this step you've done, write in to your "README.md".
 <br/>
