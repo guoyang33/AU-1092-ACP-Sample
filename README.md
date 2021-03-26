@@ -1,6 +1,6 @@
 # 1092 Asia University Advanced Computer Programming Sample
 Code sample for Asia University 1092 Advanced Computer Programming.
-頁底
+<a href="#注意-python--notice-for-python">頁底</a>
 
 # 3/26 第五週 | Week 5
 <a href="week5">資料夾</a> (Folder)
