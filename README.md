@@ -6,7 +6,7 @@ Code sample for Asia University 1092 Advanced Computer Programming.
 Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice">Notice</a> subject, at bottom of this page
 
 # 3/26 第五週 | Week 5
-<a href="week5">資料夾</a> (File Directory)
+<a href="Week5">資料夾</a> (File Directory)
 ## 課堂練習 | Exercise
 ### 說明 | Introduction
 請同學使用 Python抓蟲 去抓 <b>王經篤老師</b> 或 <b>黃明祥老師</b> 的 publication 網頁資料並將資料寫入到資料檔。將操作過程以 Github Repository 的 Readme 進行記錄。將 Github link 上傳至系統
@@ -28,9 +28,9 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 <br/>
 
 ### 程式碼 | Code Sample
-Week5/<a href="week5/Exercise.py">Exercise.py</a>
+Week5/<a href="Week5/Exercise.py">Exercise.py</a>
 <br/>
-Eng. Ver: Week5/<a href="week5/ExerciseEn.py">ExerciseEn.py</a>
+Eng. Ver: Week5/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a>
 ## 作業 | Homework
 
 ## 注意 | Notice
