@@ -1,12 +1,12 @@
 # 1092 Asia University Advanced Computer Programming Sample
 Code sample for Asia University 1092 Advanced Computer Programming.
 <br/>
-一些基本的問題先看下面的<a href="#注意-python--notice-for-python">注意</a>條目
+一些基本的問題先看下面的<a href="#%E6%B3%A8%E6%84%8F--notice">注意</a>條目
 <br/>
-Some simple problem try to find it in <a href="#注意-python--notice-for-python">Noticebelow this page
+Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice">Notice</a> subject, at bottom of this page
 
 # 3/26 第五週 | Week 5
-<a href="week5">資料夾</a> (Folder)
+<a href="week5">資料夾</a> (File Directory)
 ## 課堂練習 | Exercise
 ### 說明 | Introduction
 請同學使用 Python抓蟲 去抓 <b>王經篤老師</b> 或 <b>黃明祥老師</b> 的 publication 網頁資料並將資料寫入到資料檔。將操作過程以 Github Repository 的 Readme 進行記錄。將 Github link 上傳至系統
@@ -28,7 +28,7 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 <br/>
 
 ### 程式碼 | Code Sample
-<a href="week5/Exercise.py">Link</a>
+week5/<a href="week5/Exercise.py">Exercise.py</a>
 ## 作業 | Homework
 
 ## 注意 | Notice
