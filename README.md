@@ -6,7 +6,15 @@ Code sample for Asia University 1092 Advanced Computer Programming.
 Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice">Notice</a> subject, at bottom of this page
 
 # 3/26 第五週 | Week 5
+## 檔案 | Files
 <a href="Week5">資料夾</a> (File Directory)
+<il>
+  <li>Week5/<a href="Week5/Exercise.py">Exercise.py</a></li>
+  <li>Week5/<a href="Week5/Homework.py">Homework.py</a></li>
+  <p></p>
+  <li>Week5/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
+  <li>Week5/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
+</il>
 
 ## 注意 | Notice
 ### 針對 Python | For Python

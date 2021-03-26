@@ -3,7 +3,7 @@ Required modules: requests, bs4, lxml
 
 Introduction:
 After run this program, it will create or overwite named "output-publication.txt" file on the same directory of this program.
-In that file, this program will write the Subject and Featured Authors from Teacher Huang's website
+In that file, this program will write the Infomations from Teacher Huang's website
 """
 
 import requests

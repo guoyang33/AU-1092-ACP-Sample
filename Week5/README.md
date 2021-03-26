@@ -13,7 +13,7 @@ Make a web-crawler (Worm) to fetch the Publication Page of <b>Teacher Wang</b> o
 <br/>
 Record all of this step you've done, write in to your "README.md".
 <br/>
-Submit the Github link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>
+Submit the Github link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 <br/>
 Teacher Wang: <a href="http://dns2.asia.edu.tw/~jdwang/PaperList.htm">http://dns2.asia.edu.tw/~jdwang/PaperList.htm</a>
 <br/>
@@ -28,3 +28,23 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 ---
 
 ## 作業 | Homework
+### 說明 | Introduction
+請同學使用 Python 爬蟲程式抓出亞大資工系 103 學年度所有的畢業專題資訊，並將資料寫入到資料檔。
+<br/>
+<a href="https://csie.asia.edu.tw/project/semester-103">https://csie.asia.edu.tw/project/semester-103</a>
+<br/>
+ps. 請開新的 Github repository 完成作業後將 Github link 上傳至系統
+<br/>
+
+#### Eng. Ver
+Make a web-crawler(Worm) to fetch AU CSIE all of the Infomations of Guaduation Project at 103 School Year, and put these data into an output file, the link is down below.
+<br/>
+<a href="https://csie.asia.edu.tw/project/semester-103">https://csie.asia.edu.tw/project/semester-103</a>
+<br/>
+p.s. Create a new Github repository for this program, submit your Github link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
+<br/>
+
+## 程式碼 | Code Sample
+<a href="Homework.py">Homework.py</a>
+<br/>
+<a href="HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)
