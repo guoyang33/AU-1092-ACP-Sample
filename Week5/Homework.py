@@ -1,4 +1,9 @@
+# -*- coding: utf-8 -*-
+
 """
+Homework.py
+
+作業
 程式需要用到的模組: requests、bs4
 
 說明：

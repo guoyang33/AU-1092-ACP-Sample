@@ -1,4 +1,9 @@
+# -*- coding: utf-8 -*-
+
 """
+HomeworkEn.py
+
+Homework
 Required modules: requests, bs4
 
 Introduction:

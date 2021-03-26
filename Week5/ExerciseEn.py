@@ -1,4 +1,9 @@
+# -*- coding: utf-8 -*-
+
 """
+ExerciseEn.py
+
+Exercise
 Required modules: requests, bs4
 
 Introduction:

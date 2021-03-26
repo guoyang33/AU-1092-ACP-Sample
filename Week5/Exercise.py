@@ -1,4 +1,9 @@
+# -*- coding: utf-8 -*-
+
 """
+Exercise.py
+
+課堂練習
 程式需要用到的模組: requests、bs4
 
 說明：
