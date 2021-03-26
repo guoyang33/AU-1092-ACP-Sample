@@ -23,45 +23,51 @@ response = requests.get(url)
 # response.encoding = 'utf8'
 response.encoding = 'big5'
 
-# Get the HTML source from "content" attribute(str type) of "response"
-# and put this into variable rc
+# Get the HTML source from "content" attribute(str type) of "response", and put this into variable rc
 rc = response.content
 
-# 使用bs4 函式庫中的BeautifulSoup 函式將字串型態(str)的html 文本轉成程式好解讀的物件型態(object)
-# 此函式第2的參數是解析文本的方式，其細節可上網搜尋
-# soup = bs4.BeautifulSoup(rc, 'lxml') # 使用lxml 解析 (需另外安裝lxml 模組)
+# Use "BeautifulSoup()" form library "bs4", it will turn the HTML(str type) into an object type of HTML, be more eazier readable for python program
+# The second parameter of this function is select type which is going to parse the string from the first paramter(str type)
+# This example used "html.parser" to parse "rc", about another type of second parameter can find it by search from internet
 soup = bs4.BeautifulSoup(rc, 'html.parser') # 使用html.parser 解析
+# soup = bs4.BeautifulSoup(rc, 'lxml') # Parse with using lxml (need to pip install lxml)
 
-# 檢查response 的網頁HTTP 狀態碼，可透過response 中的status_code 屬性取得
-# 常見的狀碼與對應的意思有：200:OK, 404:Page Not Found, 500:Server Internal Error
-if response.status_code == 200: # 狀態碼 200代表正常
-    # 將要改寫的輸出記錄檔打開，若不存在則會自動建立
-    # 參數1: 檔名, 參數2: 開啓模式(r:讀, w:寫)
-    # 參數encoding 即為檔案編碼，使用utf-8 萬國碼可在大多編碼的檢視中正常顯示
+# Check HTTP Status Code from response, in code, can be found in attribute "status_code" of response
+# Status Codes that common to see like: 200:OK, 404:Page Not Found, 500: Server Internal Error
+if response.status_code == 200: # Status Code 200 means OK
+
+    # Open the file that use to store data from this program fetch by website
+    # If this file doesn't exist, and it will auto create by run this program
+    # First Parameter: file name, Second Parameter: open mode("r":read, "w": write)
+    # Parameter "encoding" is setting to which encoding you want to use to open this file
+    # If the file you're going to open is a different encoding to your selected, then it may be display as garbled
+    # So set encoding to "utf-8" can be normally display on most encoding browser or viewer
     f = open('output-publication.txt', 'w', encoding='utf8')
 
-    # soup此程式是以爬蟲黃明祥老師的網頁為例，不同的網頁會有不同的HTML 結構
-    # 所以在使用soup.find 或是soup.find_all 時要視情況而定
-    # soup 中的find()與find_all() 方法(Method)的第一個參數都是選擇的標籤名稱，第二個則是該元素的class 名稱
-    # find()回傳值是符合條件的第一個HTML物件；find_all() 的回傳則是符合條件的所有HTML 物件，為列表型態(list)
-    
-    # 在黃明祥老師的網頁原始碼中，可以看到針對Publication 的每筆資料都是用<p class="MsoNormal">這個標籤包起來的
-    # 所以使用soup 物件(object)中的find_all()方法(Method)，要符合的條件為：標籤名稱為<p>且class="MsoNormal"
-    # 而因為是列表型態(list) 所以可以使用for 迴圈迭代出每一筆資料
+    # This program is sample of fetch Teacher Huang's website, different website have differenet HTML construct
+    # So in every level you use soup.find() or soup.find_all() are choose by case situation
+    # In Method(function) find() and find_all() from soup(object type) has very similar arguments
+    # Both are use to find the Tag name(e.g.<p></p>) by first parameter you given
+    # Second parameter use to find the class name(e.g.<p class="xxx">)
+    # The different between find() and find_all(), find() returns element and its inner elements by first conform to expression you've setted in parameters
+    # find_all() will return all the elements and their inner elements by all the result of elements that conform to expression, and this one will be list type, not object
+
+    # In source HTML of Teacher Huang's website, as you can see, every single data are separated by <p class="MsoNormal"> this Tag and class
+    # So use soup.find_all() Method, to find all of elements whiches are conform to expressino "Tag name=p" and "class=MsoNormal""
+    # Because of the find_all() returned value is list type, so it can be iterations each data by using "for" loop
     for tagP in soup.find_all('p', 'MsoNormal'):
 
-        # 註：使用bs4 解析HTML 後回傳的 HTML物件，不管有沒有經過find() 或find_all() 的篩選
-        # 此型態(type) 皆有一屬性(Attribute)就叫text，其值為該HTML 物件的字串(str) 型態(type)
-        # 還會自動去掉所有的標籤(也就是<xxx></xxx>)
+        # Remarks: The soup object, means parsed HTML by using "BeautifulSoup()" from "bs4"
+        # This type always exist one attribute called "text", it contained the element and all of the elements inside, but it doesn't include any Tag(e.g.<xxx></xxx>)
 
-        # 得到每一筆的Publication 資料後，就把多餘的字符去掉，如：「換行字符"\n"和縮進字符"\t"等」
-        # 這裡的作法是先用HTML 物件中的text 屬性去掉標籤名稱，再用字串(str)的內建方法replace()把"\n"及"\t"去掉
+        # To remove unnecessary symbols of each data like "Escape Character"(e.g.Wrap"\n", Indent"\t")
+        # In this case, use attribute "text" of soup to remove Tag, then use method of str type "replace()", to remove "\n" and "\t"
         t = tagP.text.replace('\t', '').replace('\n', '')
 
-        # 把上面處理完的"干淨"的資料寫入前面打開的檔案中，記得在行尾加上"\n"
-        # 這裡的"\n" 跟上面被去掉的"\n"是兩回事，上面去掉的是原本應該要在一行的文字因為被bs4 解析後所加上的"\n"
-        # 不去掉會導致現在在這裡的資料呈現應該同一行的文字跳到下一行
+        # Put this data line into output file, and add a "\n" at the tail
+        # This "\n" and the "\n" removed above are different things, those removen "\n" are added by bs4
+        # And they might let the data which should be in the same line go to next line
         f.write(t+'\n')
 
-    # 最後的最後，把開啓的檔案關閉
+    # The final of this program, close the file which is openned in earlier
     f.close()
