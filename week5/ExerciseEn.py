@@ -1,31 +1,33 @@
 """
-程式需要用到的模組: requests、bs4、lxml
+Required modules: requests, bs4, lxml
 
-說明：
-此程式執行後會在同目錄下創建或"覆寫"一名為"output-publication.txt"的檔案
-該檔案內容為黃明祥老師的網頁上，各著作的標題及著作人
+Introduction:
+After run this program, it will create or overwite named "output-publication.txt" file on the same directory of this program.
+In that file, this program will write the Subject and Featured Authors from Teacher Huang's website
 """
 
 import requests
 import bs4
 
-# 設定來源 url
-# url = "http://210.70.80.21/~yungchen/1092-Adv-Programming/publication.html" # 周永振老師的連結
-# url = "http://dns2.asia.edu.tw/~jdwang/PaperList.htm" # 王經篤老師的連結
-url = "http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm" # 黃明祥老師的連結
+# Setup what site you wanna get the data from, declar it in variable "url"
+# This program will fetch data from Teacher Huang
+# url = "http://210.70.80.21/~yungchen/1092-Adv-Programming/publication.html" # Teacher Zhou's website
+# url = "http://dns2.asia.edu.tw/~jdwang/PaperList.htm" # Teacher Wang's
+url = "http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm" # Teacher Huang's
 
-# 透過requests.get() 函式完成HTTP Request 取得response
+# To use request.get() to finish HTTP Request and get response, and put this object into variable "response"
 response = requests.get(url)
 
-# 設定讀取response 的編碼，除了周永振老師的網頁編碼為utf-8，另外兩位老師的網頁所使用的編碼皆為big5
+# Set the encoding which is to let this program to read it, except for Teacher Zhou who is using "utf-8"
+# other Teachers both are using "big5" encoding
 # response.encoding = 'utf8'
 response.encoding = 'big5'
 
-# 從response 中取得HTML 原始碼，即為response 的content 屬性
-# 其類型(type)為字串(str)
-rc = response.content # 存入變數rc
+# Get the HTML source from "content" attribute(str type) of "response"
+# and put this into variable rc
+rc = response.content
 
-# 使用bs4 函式庫中的BeautifulSoup 函式將字串型態(str)的HTML 文本轉成程式好解讀的物件型態(object)
+# 使用bs4 函式庫中的BeautifulSoup 函式將字串型態(str)的html 文本轉成程式好解讀的物件型態(object)
 # 此函式第2的參數是解析文本的方式，其細節可上網搜尋
 # soup = bs4.BeautifulSoup(rc, 'lxml') # 使用lxml 解析 (需另外安裝lxml 模組)
 soup = bs4.BeautifulSoup(rc, 'html.parser') # 使用html.parser 解析

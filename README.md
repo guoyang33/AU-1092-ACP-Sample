@@ -28,7 +28,9 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 <br/>
 
 ### 程式碼 | Code Sample
-week5/<a href="week5/Exercise.py">Exercise.py</a>
+Week5/<a href="week5/Exercise.py">Exercise.py</a>
+<br/>
+Eng. Ver: Week5/<a href="week5/ExerciseEn.py">ExerciseEn.py</a>
 ## 作業 | Homework
 
 ## 注意 | Notice
