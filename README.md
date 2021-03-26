@@ -1,6 +1,9 @@
 # 1092 Asia University Advanced Computer Programming Sample
 Code sample for Asia University 1092 Advanced Computer Programming.
-<a href="#注意-python--notice-for-python">頁底</a>
+<br/>
+一些基本的問題先看下面的<a href="#注意-python--notice-for-python">注意</a>條目
+<br/>
+Some simple problem try to find it in <a href="#注意-python--notice-for-python">Noticebelow this page
 
 # 3/26 第五週 | Week 5
 <a href="week5">資料夾</a> (Folder)
@@ -28,7 +31,8 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 <a href="week5/Exercise.py">Link</a>
 ## 作業 | Homework
 
-## 注意 (Python) | Notice (For Python)
+## 注意 | Notice
+### 針對 Python | For Python
 各程式需要用到的模組我會寫在程式碼開頭，檢查模組是否已安裝的方法如下
 <br/>
 The required modules in program, I wrote it on the top of the source code, to check the module are installed, follow the stpes below:
