@@ -1,10 +1,26 @@
-# AU-ACP-109021331-Sample
+# 1092 Asia University Advanced Computer Programming Sample
 Code sample for Asia University 1092 Advanced Computer Programming.
-## 注意
-各程式需要用到的模組我會寫在程式碼開頭，若要安裝模組，在終端機中輸入
-<code>pip install 模組名稱</code>
-若以上指令沒用，嘗試：<code>python -m pip install <模組名稱></code>
-還是沒用的話把 Python 重新安裝，在安裝過程中勾選「Add python to PATH」
+<br/>
+Author: 109021331 CYou Liao
+## 注意 | Notice
+各程式需要用到的模組我會寫在程式碼開頭，檢查模組是否已安裝的方法如下
+<br/>
+執行程式後看有報此錯誤碼
+<pre><code>Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'requests'</code></pre>
+則代表模組requests尚未安裝
+<br/>
+也可以在終端機中輸入
+<pre><code>pip show <模組名稱></code></pre>
+回傳 <code>WARNING: Package(s) not found: <模組名稱></code>
+就是模組未安裝
+<br/>若要安裝模組，在終端機中輸入
+<pre><code>pip install <模組名稱></code></pre>
+若以上指令沒用，嘗試：
+<pre><code>python -m pip install <模組名稱></code></pre>
+還是沒用的話，就要把 Python 重新安裝，且在安裝過程中勾選「Add Python to PATH」
+<img src="imgs/0001_add_Python_>
 
 # 3/26 第五週 | Week 5
 <a href="week5">資料夾</a> (Folder)
