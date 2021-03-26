@@ -1,5 +1,10 @@
 # AU-ACP-109021331-Sample
 Code sample for Asia University 1092 Advanced Computer Programming.
+## 注意
+各程式需要用到的模組我會寫在程式碼開頭，若要安裝模組，在終端機中輸入
+<code>python -m pip install 模組名稱</code>
+若以上指令沒用，嘗試：「pip install <模組名稱>」
+還是沒用的話把 Python 重新安裝，在安裝過程中勾選「Add python to PATH」
 
 # 3/26 第五週 | Week 5
 <a href="week5">資料夾</a> (Folder)
