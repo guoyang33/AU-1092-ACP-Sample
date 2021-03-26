@@ -1,6 +1,7 @@
 # 1092 Asia University Advanced Computer Programming Sample
 Code sample for Asia University 1092 Advanced Computer Programming.
 <br/>
+<br/>
 一些基本的問題先看下面的<a href="#%E6%B3%A8%E6%84%8F--notice">注意</a>條目
 <br/>
 Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice">Notice</a> subject, at bottom of this page
