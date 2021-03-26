@@ -21,9 +21,9 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 <br/>
 
 ## 程式碼 | Code Sample
-Week5/<a href="Exercise.py">Exercise.py</a>
+<a href="Exercise.py">Exercise.py</a>
 <br/>
-Eng. Ver: Week5/<a href="ExerciseEn.py">ExerciseEn.py</a>
+Eng. Ver: <a href="ExerciseEn.py">ExerciseEn.py</a>
 
 ---
 
