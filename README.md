@@ -36,7 +36,7 @@ The required modules in program, I wrote it on the top of the source code, to ch
 <br/>
 執行程式後看有報此錯誤碼
 <br/>
-Run .py file and see if Terminal return this error message
+Run .py file and if you see Terminal return this error message
 <pre><code>Traceback (most recent call last):
   File "&#60;stdin&#62;", line 1, in <module>
 ModuleNotFoundError: No module named 'requests'</code></pre>
