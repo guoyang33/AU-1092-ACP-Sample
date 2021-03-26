@@ -16,7 +16,7 @@ Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice
 黃明祥老師: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm">http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm</a>
 <br/>
 #### Eng. Ver
-Make a web-crawler (worm) to fetch the Publication Page of <b>Teacher Wang</b> or <b>Teacher Huang</b>, and put these data into an output file e.g."output.txt".
+Make a web-crawler (Worm) to fetch the Publication Page of <b>Teacher Wang</b> or <b>Teacher Huang</b>, and put these data into an output file e.g."output.txt".
 <br/>
 Record all of this step you've done, write in to your "README.md".
 <br/>
