@@ -26,16 +26,12 @@ Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice
 The required modules in program, I wrote it on the top of the source code, to check the module are installed, follow the stpes below:
 <br/>
 <br/>
-執行程式後看有報此錯誤碼
+執行程式後若終端機報下方錯誤碼，則代表模組 requests 尚未安裝
 <br/>
-Run .py file and if you see Terminal return this error message
+Run .py file and if you see Terminal return this error message, that means module "requests" doesn't installed
 <pre><code>Traceback (most recent call last):
   File "&#60;stdin&#62;", line 1, in <module>
 ModuleNotFoundError: No module named 'requests'</code></pre>
-則代表模組 requests 尚未安裝
-<br/>
-In this case, that means module "requests" doesn't installed
-<br/>
 <br/>
 也可以在終端機中輸入
 <br/>
