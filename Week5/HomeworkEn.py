@@ -16,9 +16,9 @@ import bs4
 
 url = "https://csie.asia.edu.tw/project/semester-103"
 
-# Here's the point, in this case I set parameter "verify" of requests.get() function to "False"
-# Because when you try to HTTP Request this site, this site will check your browser's Secure Certification, and in this python program, certification was unsettled
-# So I set this parameter to False
+# Here's the point, I set parameter "verify" of requests.get() function to "False" it's because
+# When you do HTTP Request to a SSL site, your browser will try to find Secure Certification on your python vironment, but there's a unsafe way to skip this step is to disable this verify action
+# So I set this "verify" parameter to False
 response = requests.get(url, verify=False)
 if response.status_code == 200:
     response.encoding = "utf8"
