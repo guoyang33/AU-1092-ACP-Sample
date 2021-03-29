@@ -15,9 +15,9 @@ import requests
 import bs4
 
 # 設定來源 url
+url = "http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm" # 黃明祥老師的連結
 # url = "http://210.70.80.21/~yungchen/1092-Adv-Programming/publication.html" # 周永振老師的連結
 # url = "http://dns2.asia.edu.tw/~jdwang/PaperList.htm" # 王經篤老師的連結
-url = "http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm" # 黃明祥老師的連結
 
 # 透過requests.get() 函式完成HTTP Request 取得response
 response = requests.get(url)

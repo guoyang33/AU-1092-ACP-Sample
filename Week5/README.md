@@ -25,6 +25,9 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 <br/>
 <a href="ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)
 
+### 輸出檔 | Output File
+<a href="output-publication.txt">output-publication.txt</a>
+
 ---
 
 ## 作業 | Homework
@@ -48,3 +51,8 @@ p.s. Create a new Github repository for this program, submit your Github link to
 <a href="Homework.py">Homework.py</a>
 <br/>
 <a href="HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)
+<br />
+
+### 輸出檔 | Output File
+<a href="output-graduation_projects.txt">output-graduaction_projects.txt</a>
+

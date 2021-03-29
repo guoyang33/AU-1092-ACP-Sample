@@ -15,10 +15,10 @@ import requests
 import bs4
 
 # Setup what site you wanna get the data from, declar it in variable "url"
+url = "http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm" # Teacher Huang's
 # This program will fetch data from Teacher Huang
 # url = "http://210.70.80.21/~yungchen/1092-Adv-Programming/publication.html" # Teacher Zhou's website
 # url = "http://dns2.asia.edu.tw/~jdwang/PaperList.htm" # Teacher Wang's
-url = "http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm" # Teacher Huang's
 
 # To use request.get() to finish HTTP Request and get response, and put this object into variable "response"
 response = requests.get(url)
