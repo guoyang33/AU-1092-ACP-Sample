@@ -15,6 +15,10 @@ import requests
 import bs4
 
 url = "https://csie.asia.edu.tw/project/semester-103"
+
+# 特別注意的一個點，這裡的requests.get()函式多加一個參數「verify」
+# 原因是當程式在向SSL 網站傳送HTTP Request 時，程式會在當前執行環境尋找儲存該網站的安全憑證
+# 所以要跳過這個步驟，只要在這用函式時，加入參數「verify」且設為「False」
 response = requests.get(url, verify=False)
 if response.status_code == 200:
     response.encoding = "utf8"
