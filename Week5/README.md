@@ -1,4 +1,9 @@
 # 3/26 第五週 | Week 5
+<il>
+    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week5#%E8%AA%B2%E5%A0%82%E7%B7%B4%E7%BF%92--exercise">課堂練習</a> (Exercise)</li>
+    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week5#%E4%BD%9C%E6%A5%AD--homework">作業</a> (Homework)</li>
+</il>
+
 # 課堂練習 | Exercise
 ## 說明 | Introduction
 請同學使用 Python抓蟲 去抓 <b>王經篤老師</b> 或 <b>黃明祥老師</b> 的 publication 網頁資料並將資料寫入到資料檔。將操作過程以 Github Repository 的 Readme 進行記錄。將 Github link 上傳至系統
