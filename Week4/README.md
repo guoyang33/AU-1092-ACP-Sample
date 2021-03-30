@@ -16,7 +16,7 @@
 ### Eng. Ver
 Record the exercises of class into "README.md".
 <br>
-Submit Github Repository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
+Submit your Github Repository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 
 ## 檔案 | Files
 <il>
@@ -29,32 +29,11 @@ Submit Github Repository link to <a href="https://tronclass.asia.edu.tw/">TronCl
 請同學將作業以一個 Github 的 Repository 整理後並在 Readme 檔案裡加入筆記說明，再將 Repository 的 連結上傳至<a href="https://tronclass.asia.edu.tw/">創課平台</a>
 
 ### Eng. Ver
-Arrange a Github Repository, and write down the introduction into "README.md", then submit this Github Respository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
-
-## 程式碼 | Code Sample
-<pre>
-<code>response.encoding = "utf8"
-soup = bs4.BeautifulSoup(response.content, "html.parser")
-f = open("output-graduation_projects.txt", "w", encoding="utf8")
-for table in soup.find_all("table"):
-    for row in table.find_all("tr"):
-        for cell in row.find_all("td"):
-            t = cell.text.replace("\t", "").replace("\n", "")
-            f.write(t+"\t")
-        f.write("\n")
-    f.write("\n")
-f.close()
-</code></pre>
+Arrange a Github Repository, and write down your class note into "README.md", then submit your Github Respository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 
 ## 檔案 | Files
 <il>
-    <li><a href="Homework.py">Homework.py</a></li>
-    <li><a href="HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
-</il>
-
-## 輸出檔 | Output File
-<il>
-    <li><a href="output-graduation_projects.txt">output-graduaction_projects.txt</a></li>
+    <li><a href="README.md">README.md</a></li>
 </il>
 
 ---
