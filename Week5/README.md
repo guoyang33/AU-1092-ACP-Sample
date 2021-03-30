@@ -55,7 +55,7 @@ f.close()
 <br>
 <a href="https://csie.asia.edu.tw/project/semester-103">https://csie.asia.edu.tw/project/semester-103</a>
 <br>
-ps. 請開新的 Github repository 完成作業後將 Github link 上傳至系統
+ps. 請開新的 Github repository 完成作業後將 Github link 上傳至<a href="https://tronclass.asia.edu.tw/">創課平台</a>
 <br>
 
 ### Eng. Ver

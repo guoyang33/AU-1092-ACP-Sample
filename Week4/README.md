@@ -24,7 +24,7 @@ Record the exercises of class into "README.md", then push your Repository to Git
 ---
 # Homework
 ## 說明 | Introduction
-請同學將作業以一個 Github 的 Repository 整理後並在 Readme 檔案裡加入筆記說明，再將 Repository 的 連結上傳至系統
+請同學將作業以一個 Github 的 Repository 整理後並在 Readme 檔案裡加入筆記說明，再將 Repository 的 連結上傳至<a href="https://tronclass.asia.edu.tw/">創課平台</a>
 
 ### Eng. Ver
 Arrange a Github Repository, and write down the introduction into "README.md", then submit this Github Respository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
