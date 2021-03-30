@@ -49,7 +49,6 @@ f.close()
 </il>
 
 ---
-
 # 作業 | Homework
 ## 說明 | Introduction
 請同學使用 Python 爬蟲程式抓出亞大資工系 103 學年度所有的畢業專題資訊，並將資料寫入到資料檔。
