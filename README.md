@@ -6,6 +6,13 @@ Code sample for Asia University 1092 Advanced Computer Programming.
 <br>
 Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice">Notice</a> subject, at bottom of this page
 
+## 目錄 | Index
+<il>
+    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week5#%E8%AA%B2%E5%A0%82%E7%B7%B4%E7%BF%92--exercise">課堂練習</a> (Exercise)</li>
+    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week5#%E4%BD%9C%E6%A5%AD--homework">作業</a> (Homework)</li>
+    <li><a href="#%E6%B3%A8%E6%84%8F--notice">注意</a> (Notice)</li>
+</il>
+
 # 3/26 第五週 | Week 5
 ## 檔案 | Files
 <a href="Week5">資料夾</a> (File Directory)
