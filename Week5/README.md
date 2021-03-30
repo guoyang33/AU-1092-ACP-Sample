@@ -63,7 +63,7 @@ Make a web-crawler(Worm) to fetch AU CSIE all of the Infomations of Guaduation P
 <br>
 <a href="https://csie.asia.edu.tw/project/semester-103">https://csie.asia.edu.tw/project/semester-103</a>
 <br>
-p.s. Create a new Github repository for this program, submit your Github link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
+p.s. Create a new Github repository for this program, submit your Github Repository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 <br>
 
 ## 程式碼 | Code Sample

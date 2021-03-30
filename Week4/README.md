@@ -24,22 +24,14 @@ Push your Repository to Github when you finished edit.
 </il>
 
 ---
-# 作業 | Homework
+# Homework
 ## 說明 | Introduction
-請同學使用 Python 爬蟲程式抓出亞大資工系 103 學年度所有的畢業專題資訊，並將資料寫入到資料檔。
-<br>
-<a href="https://csie.asia.edu.tw/project/semester-103">https://csie.asia.edu.tw/project/semester-103</a>
-<br>
-ps. 請開新的 Github repository 完成作業後將 Github link 上傳至系統
-<br>
+請同學將作業以一個 Github 的 Repository 整理後並在 Readme 檔案裡加入筆記說明，再將 Repository 的 連結上傳至系統
 
 ### Eng. Ver
-Make a web-crawler(Worm) to fetch AU CSIE all of the Infomations of Guaduation Project at 103 School Year, and put these data into an output file, the link is down below.
+Arrange a Github Repository, and write down the introduction into README.md
 <br>
-<a href="https://csie.asia.edu.tw/project/semester-103">https://csie.asia.edu.tw/project/semester-103</a>
-<br>
-p.s. Create a new Github repository for this program, submit your Github link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
-<br>
+then submit this Github Respository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 
 ## 程式碼 | Code Sample
 <pre>
