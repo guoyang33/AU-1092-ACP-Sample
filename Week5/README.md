@@ -18,9 +18,7 @@
 ### Eng. Ver
 Make a web-crawler (Worm) to fetch the Publication Page of <b>Teacher Wang</b> or <b>Teacher Huang</b>, and put these data into an output file e.g."output.txt".
 <br>
-Record all of this step you've done, write in to your "README.md".
-<br>
-Submit the Github link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
+Record all of this step you've done, write it down into "README.md", then submit the Github link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 <br>
 Teacher Wang: <a href="http://dns2.asia.edu.tw/~jdwang/PaperList.htm">http://dns2.asia.edu.tw/~jdwang/PaperList.htm</a>
 <br>
