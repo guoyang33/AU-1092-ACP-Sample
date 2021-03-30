@@ -1,12 +1,9 @@
-# 3/26 第五週 | Week 5
+# 3/19 第四週 | Week 4
 ## 課堂練習 | Exercise
 ### 說明 | Introduction
-請同學使用 Python抓蟲 去抓 <b>王經篤老師</b> 或 <b>黃明祥老師</b> 的 publication 網頁資料並將資料寫入到資料檔。將操作過程以 Github Repository 的 Readme 進行記錄。將 Github link 上傳至系統
+請同學將課堂練習的過程記錄在Github的 Repository 中的 Readme 檔案。
 <br>
-王經篤老師: <a href="http://dns2.asia.edu.tw/~jdwang/PaperList.htm">http://dns2.asia.edu.tw/~jdwang/PaperList.htm</a>
-<br>
-黃明祥老師: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm">http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm</a>
-<br>
+完成後請將 Github Repository 連結上傳至系統
 
 #### Eng. Ver
 Make a web-crawler (Worm) to fetch the Publication Page of <b>Teacher Wang</b> or <b>Teacher Huang</b>, and put these data into an output file e.g."output.txt".

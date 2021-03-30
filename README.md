@@ -19,6 +19,59 @@ Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice
   <li>Week5/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
 </il>
 
+
+# 3/19 第四週 | Week 4
+## 檔案 | Files
+<a href="Week4">資料夾</a> (File Directory)
+<il>
+  <p>課堂練習 | Exercise</p>
+  <li>Week5/<a href="Week4/Exercise.py">Exercise.py</a></li>
+  <li>Week5/<a href="Week4/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
+  <p></p>
+  <p>作業 | Homework</p>
+  <li>Week5/<a href="Week4/Homework.py">Homework.py</a></li>
+  <li>Week5/<a href="Week4/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
+</il>
+
+<!-- # 3/19 第五週 | Week 5
+## 檔案 | Files
+<a href="Week5">資料夾</a> (File Directory)
+<il>
+  <p>課堂練習 | Exercise</p>
+  <li>Week5/<a href="Week5/Exercise.py">Exercise.py</a></li>
+  <li>Week5/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
+  <p></p>
+  <p>作業 | Homework</p>
+  <li>Week5/<a href="Week5/Homework.py">Homework.py</a></li>
+  <li>Week5/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
+</il> -->
+
+<!-- # 3/19 第五週 | Week 5
+## 檔案 | Files
+<a href="Week5">資料夾</a> (File Directory)
+<il>
+  <p>課堂練習 | Exercise</p>
+  <li>Week5/<a href="Week5/Exercise.py">Exercise.py</a></li>
+  <li>Week5/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
+  <p></p>
+  <p>作業 | Homework</p>
+  <li>Week5/<a href="Week5/Homework.py">Homework.py</a></li>
+  <li>Week5/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
+</il> -->
+
+<!-- # 3/19 第五週 | Week 5
+## 檔案 | Files
+<a href="Week5">資料夾</a> (File Directory)
+<il>
+  <p>課堂練習 | Exercise</p>
+  <li>Week5/<a href="Week5/Exercise.py">Exercise.py</a></li>
+  <li>Week5/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
+  <p></p>
+  <p>作業 | Homework</p>
+  <li>Week5/<a href="Week5/Homework.py">Homework.py</a></li>
+  <li>Week5/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
+</il> -->
+
 ## 注意 | Notice
 ### 針對 Python | For Python
 各程式需要用到的模組我會寫在程式碼開頭，檢查模組是否已安裝的方法如下
