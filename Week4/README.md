@@ -10,11 +10,13 @@
 ## 說明 | Introduction
 請同學將課堂練習的過程記錄在Github的 Repository 中的 Readme 檔案。
 <br>
-完成後請將 Github Repository 連結上傳至系統
+完成後請將 Github Repository 連結上傳至<a href="https://tronclass.asia.edu.tw/">創課平台</a>
 <br>
 
 ### Eng. Ver
-Record the exercises of class into "README.md", then push your Repository to Github when you finished edit.
+Record the exercises of class into "README.md".
+<br>
+Submit Github Repository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 
 ## 檔案 | File
 <il>
