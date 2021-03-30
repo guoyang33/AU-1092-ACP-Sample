@@ -21,13 +21,17 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 <br>
 
 ## 程式碼 | Code Sample
-<a href="Exercise.py">Exercise.py</a>
-<br>
-<a href="ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)
 
-### 輸出檔 | Output File
-<a href="output-publication.txt">output-publication.txt</a>
+## 檔案 | File
+<il>
+    <li><a href="Exercise.py">Exercise.py</a></li>
+    <li><a href="ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
+</il>
 
+## 輸出檔 | Output File
+<il>
+    <li><a href="output-publication.txt">output-publication.txt</a></li>
+</il>
 ---
 
 ## 作業 | Homework

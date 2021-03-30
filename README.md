@@ -25,12 +25,11 @@ Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice
 <a href="Week4">資料夾</a> (File Directory)
 <il>
   <p>課堂練習 | Exercise</p>
-  <li>Week5/<a href="Week4/Exercise.py">Exercise.py</a></li>
-  <li>Week5/<a href="Week4/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
+  <li>Week4/<a href="Week4/README.md">README.md</a></li>
   <p></p>
   <p>作業 | Homework</p>
-  <li>Week5/<a href="Week4/Homework.py">Homework.py</a></li>
-  <li>Week5/<a href="Week4/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
+  <li>Week4/<a href="Week4/Homework.py">Homework.py</a></li>
+  <li>Week4/<a href="Week4/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
 </il>
 
 <!-- # 3/19 第五週 | Week 5
