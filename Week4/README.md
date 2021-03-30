@@ -2,7 +2,7 @@
 
 ## 目錄 | Index
 <il>
-    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week4#隨堂練習--exercise">課堂練習</a> (Exercise)</li>
+    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week4#課堂練習--exercise">課堂練習</a> (Exercise)</li>
     <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week4#homework">Homework</a></li>
 </il>
 
