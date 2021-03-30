@@ -31,12 +31,6 @@ response.encoding = 'big5'
 # Get the HTML source from "content" attribute(str type) of "response", and put this into variable rc
 rc = response.content
 
-# Use "BeautifulSoup()" form library "bs4", it will turn the HTML(str type) into an object type of HTML, be more eazier readable for python program
-# The second parameter of this function is select type which is going to parse the string from the first paramter(str type)
-# This example used "html.parser" to parse "rc", about another type of second parameter can find it by search from internet
-soup = bs4.BeautifulSoup(rc, 'html.parser') # 使用html.parser 解析
-# soup = bs4.BeautifulSoup(rc, 'lxml') # Parse with using lxml (need to pip install lxml)
-
 # Check HTTP Status Code from response, in code, can be found in attribute "status_code" of response
 # Status Codes that common to see like: 200:OK, 404:Page Not Found, 500: Server Internal Error
 if response.status_code == 200: # Status Code 200 means OK
@@ -48,6 +42,12 @@ if response.status_code == 200: # Status Code 200 means OK
     # If the file you're going to open is a different encoding to your selected, then it may be display as garbled
     # So set encoding to "utf-8" can be normally display on most encoding browser or viewer
     f = open('output-publication.txt', 'w', encoding='utf8')
+
+    # Use "BeautifulSoup()" form library "bs4", it will turn the HTML(str type) into an object type of HTML, be more eazier readable for python program
+    # The second parameter of this function is select type which is going to parse the string from the first paramter(str type)
+    # This example used "html.parser" to parse "rc", about another type of second parameter can find it by search from internet
+    soup = bs4.BeautifulSoup(rc, 'html.parser') # 使用html.parser 解析
+    # soup = bs4.BeautifulSoup(rc, 'lxml') # Parse with using lxml (need to pip install lxml)
 
     # This program is sample of fetch Teacher Huang's website, different website have differenet HTML construct
     # So in every level you use soup.find() or soup.find_all() are choose by case situation
