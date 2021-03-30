@@ -33,13 +33,15 @@ Some simple problem try to find solution in <a href="#%E6%B3%A8%E6%84%8F--notice
 # 3/19 第四週 | Week 4
 ## 檔案 | Files
 <a href="Week4">資料夾</a> (File Directory)
+
+  ### 課堂練習 | Exercise
 <il>
-  <p>課堂練習 | Exercise</p>
   <li>Week4/<a href="Week4/README.md">README.md</a></li>
-  <p></p>
-  <p>作業 | Homework</p>
-  <li>Week4/<a href="Week4/Homework.py">Homework.py</a></li>
-  <li>Week4/<a href="Week4/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
+  <li>Week4/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
+</il>
+  
+  ### 作業 | Homework
+<il>
 </il>
 
 <!-- # 3/19 第五週 | Week 5
