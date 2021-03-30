@@ -21,6 +21,14 @@ Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm"
 <br>
 
 ## 程式碼 | Code Sample
+<pre>
+<code>f = open('output-publication.txt', 'w', encoding='utf8')
+soup = bs4.BeautifulSoup(rc, 'html.parser')
+for tagP in soup.find_all('p', 'MsoNormal'):
+    t = tagP.text.replace('\t', '').replace('\n', '')
+    f.write(t+'\n')
+f.close()
+</code></pre>
 
 ## 檔案 | File
 <il>
@@ -52,11 +60,28 @@ p.s. Create a new Github repository for this program, submit your Github link to
 <br>
 
 ## 程式碼 | Code Sample
-<a href="Homework.py">Homework.py</a>
-<br>
-<a href="HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)
-<br />
+<pre>
+<code>response.encoding = "utf8"
+soup = bs4.BeautifulSoup(response.content, "html.parser")
+f = open("output-graduation_projects.txt", "w", encoding="utf8")
+for table in soup.find_all("table"):
+    for row in table.find_all("tr"):
+        for cell in row.find_all("td"):
+            t = cell.text.replace("\t", "").replace("\n", "")
+            f.write(t+"\t")
+        f.write("\n")
+    f.write("\n")
+f.close()
+</code></pre>
 
-### 輸出檔 | Output File
-<a href="output-graduation_projects.txt">output-graduaction_projects.txt</a>
+## 檔案 | File
+<il>
+    <li><a href="Homework.py">Homework.py</a></li>
+    <li><a href="HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
+</il>
+
+## 輸出檔 | Output File
+<il>
+    <li><a href="output-graduation_projects.txt">output-graduaction_projects.txt</a></li>
+</il>
 
