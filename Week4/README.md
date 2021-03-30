@@ -14,9 +14,7 @@
 <br>
 
 ### Eng. Ver
-Record the exercises of class into README.md
-<br>
-Push your Repository to Github when you finished edit.
+Record the exercises of class into "README.md", then push your Repository to Github when you finished edit.
 
 ## 檔案 | File
 <il>
@@ -29,9 +27,7 @@ Push your Repository to Github when you finished edit.
 請同學將作業以一個 Github 的 Repository 整理後並在 Readme 檔案裡加入筆記說明，再將 Repository 的 連結上傳至系統
 
 ### Eng. Ver
-Arrange a Github Repository, and write down the introduction into README.md
-<br>
-then submit this Github Respository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
+Arrange a Github Repository, and write down the introduction into "README.md", then submit this Github Respository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 
 ## 程式碼 | Code Sample
 <pre>
