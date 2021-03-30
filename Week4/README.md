@@ -18,7 +18,7 @@ Record the exercises of class into "README.md".
 <br>
 Submit Github Repository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 
-## 檔案 | File
+## 檔案 | Files
 <il>
     <li><a href="README.md">README.md</a></li>
 </il>
@@ -46,7 +46,7 @@ for table in soup.find_all("table"):
 f.close()
 </code></pre>
 
-## 檔案 | File
+## 檔案 | Files
 <il>
     <li><a href="Homework.py">Homework.py</a></li>
     <li><a href="HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>

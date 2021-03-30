@@ -27,7 +27,7 @@ Teacher Wang: <a href="http://dns2.asia.edu.tw/~jdwang/PaperList.htm">http://dns
 Teacher Huang: <a href="http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm">http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm</a>
 <br>
 
-## 程式碼 | Code Sample
+## 程式碼 | Source Code
 <pre>
 <code>f = open('output-publication.txt', 'w', encoding='utf8')
 soup = bs4.BeautifulSoup(rc, 'html.parser')
@@ -37,7 +37,7 @@ for tagP in soup.find_all('p', 'MsoNormal'):
 f.close()
 </code></pre>
 
-## 檔案 | File
+## 檔案 | Files
 <il>
     <li><a href="Exercise.py">Exercise.py</a></li>
     <li><a href="ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
@@ -66,7 +66,7 @@ Make a web-crawler(Worm) to fetch AU CSIE all of the Infomations of Guaduation P
 p.s. Create a new Github repository for this program, submit your Github Repository link to <a href="https://tronclass.asia.edu.tw/">TronClass</a>.
 <br>
 
-## 程式碼 | Code Sample
+## 程式碼 | Source Code
 <pre>
 <code>response.encoding = "utf8"
 soup = bs4.BeautifulSoup(response.content, "html.parser")
@@ -81,7 +81,7 @@ for table in soup.find_all("table"):
 f.close()
 </code></pre>
 
-## 檔案 | File
+## 檔案 | Files
 <il>
     <li><a href="Homework.py">Homework.py</a></li>
     <li><a href="HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
