@@ -30,11 +30,6 @@ response.encoding = 'big5'
 # 其類型(type)為字串(str)
 rc = response.content # 存入變數rc
 
-# 使用bs4 函式庫中的BeautifulSoup 函式將字串型態(str)的HTML 文本轉成程式好解讀的物件型態(object)
-# 此函式第2的參數是解析文本的方式，其細節可上網搜尋
-soup = bs4.BeautifulSoup(rc, 'html.parser') # 使用html.parser 解析
-# soup = bs4.BeautifulSoup(rc, 'lxml') # 使用lxml 解析 (需另外安裝lxml 模組)
-
 # 檢查response 的網頁HTTP 狀態碼，可透過response 中的status_code 屬性取得
 # 常見的狀碼與對應的意思有：200:OK, 404:Page Not Found, 500:Server Internal Error
 if response.status_code == 200: # 狀態碼 200代表正常
@@ -43,6 +38,11 @@ if response.status_code == 200: # 狀態碼 200代表正常
     # 參數1: 檔名, 參數2: 開啓模式(r:讀, w:寫)
     # 參數encoding 即為檔案編碼，使用utf-8 萬國碼可在大多編碼的檢視中正常顯示
     f = open('output-publication.txt', 'w', encoding='utf8')
+
+    # 使用bs4 函式庫中的BeautifulSoup 函式將字串型態(str)的HTML 文本轉成程式好解讀的物件型態(object)
+    # 此函式第2的參數是解析文本的方式，其細節可上網搜尋
+    soup = bs4.BeautifulSoup(rc, 'html.parser') # 使用html.parser 解析
+    # soup = bs4.BeautifulSoup(rc, 'lxml') # 使用lxml 解析 (需另外安裝lxml 模組)
 
     # 此程式是以爬蟲黃明祥老師的網頁為例，不同的網頁會有不同的HTML 結構
     # 所以在使用soup.find 或是soup.find_all 時要視情況而定
