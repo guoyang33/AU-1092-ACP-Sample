@@ -10,6 +10,7 @@ Some simple problem try to find solution in <a href="#注意--notice">Notice</a>
 <il>
     <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#326-第五週--week-5">3/26 第五週</a> (Week 5)</li>
     <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#319-第四週--week-4">3/19 第四週</a> (Week 4)</li>
+    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#312-第週--week-3">3/12 第週</a> (Week 3)</li>
     <li><a href="#注意--notice">注意</a> (Notice)</li>
 </il>
 
@@ -44,17 +45,17 @@ Some simple problem try to find solution in <a href="#注意--notice">Notice</a>
 <il>
 </il>
 
-<!-- # 3/19 第五週 | Week 5
+# 3/12 第週 | Week 3
 ## 檔案 | Files
-<a href="Week5">資料夾</a> (File Directory)
+<a href="Week3">資料夾</a> (File Directory)
 <il>
   <p>課堂練習 | Exercise</p>
-  <li>Week5/<a href="Week5/Exercise.py">Exercise.py</a></li>
-  <li>Week5/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
+  <li>Week3/<a href="Week5/Exercise.py">Exercise.py</a></li>
+  <li>Week3/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
   <p></p>
   <p>作業 | Homework</p>
-  <li>Week5/<a href="Week5/Homework.py">Homework.py</a></li>
-  <li>Week5/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
+  <li>Week3/<a href="Week5/Homework.py">Homework.py</a></li>
+  <li>Week3/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
 </il> -->
 
 <!-- # 3/19 第五週 | Week 5
