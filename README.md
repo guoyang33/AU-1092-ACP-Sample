@@ -10,7 +10,7 @@ Some simple problem try to find solution in <a href="#注意--notice">Notice</a>
 <il>
     <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#326-第五週--week-5">3/26 第五週</a> (Week 5)</li>
     <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#319-第四週--week-4">3/19 第四週</a> (Week 4)</li>
-    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#312-第週--week-3">3/12 第週</a> (Week 3)</li>
+    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#312-第三週--week-3">3/12 第三週</a> (Week 3)</li>
     <li><a href="#注意--notice">注意</a> (Notice)</li>
 </il>
 
@@ -45,7 +45,7 @@ Some simple problem try to find solution in <a href="#注意--notice">Notice</a>
 <il>
 </il>
 
-# 3/12 第週 | Week 3
+# 3/12 第三週 | Week 3
 ## 檔案 | Files
 <a href="Week3">資料夾</a> (File Directory)
 <il>
