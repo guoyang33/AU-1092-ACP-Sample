@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import requests
 import time
 from bs4 import BeautifulSoup
@@ -15,7 +17,7 @@ def get_resource(url):
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64: x64) ApplWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
     }
-    return requests.get(url, headers=headers)
+    return requests.get(url, headers=headers, verify=False)
 
 def parse_html(html_str):
     return BeautifulSoup(html_str, 'lxml')
@@ -60,9 +62,4 @@ def save_to_csv(words, file):
 if __name__ == '__main__':
     urlx = generate_urls(URL, 1, 3)
     eng_words = web_scraping_bot(urlx)
-    for item in eng_words:
-        print(item)
     save_to_csv(eng_words, "engWordList_1.csv")
-    print(*eng_words, sep='\n')
-    
-        
