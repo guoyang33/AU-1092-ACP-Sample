@@ -14,6 +14,19 @@ Some simple problem try to find solution in <a href="#注意--notice">Notice</a>
     <li><a href="#注意--notice">注意</a> (Notice)</li>
 </il>
 
+# 4/9 第七週 | Week 7
+## 檔案 | Files
+<a href="Week7">資料夾</a> (File Directory)
+<il>
+  <p>課堂練習 | Exercise</p>
+  <li>Week7/<a href="Week7/WordListDemo.py">WordListDemo.py</a></li>
+  <!-- <li>Week7/<a href="Week7/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li> -->
+  <p></p>
+  <p>作業 | Homework</p>
+  <!-- <li>Week7/<a href="Week7/Homework.py">Homework.py</a></li> -->
+  <!-- <li>Week7/<a href="Week7/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li> -->
+</il>
+
 # 3/26 第五週 | Week 5
 ## 檔案 | Files
 <a href="Week5">資料夾</a> (File Directory)
@@ -56,20 +69,7 @@ Some simple problem try to find solution in <a href="#注意--notice">Notice</a>
   <p>作業 | Homework</p>
   <li>Week3/<a href="Week5/Homework.py">Homework.py</a></li>
   <li>Week3/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
-</il> -->
-
-<!-- # 3/19 第五週 | Week 5
-## 檔案 | Files
-<a href="Week5">資料夾</a> (File Directory)
-<il>
-  <p>課堂練習 | Exercise</p>
-  <li>Week5/<a href="Week5/Exercise.py">Exercise.py</a></li>
-  <li>Week5/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
-  <p></p>
-  <p>作業 | Homework</p>
-  <li>Week5/<a href="Week5/Homework.py">Homework.py</a></li>
-  <li>Week5/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
-</il> -->
+</il>
 
 <!-- # 3/19 第五週 | Week 5
 ## 檔案 | Files
