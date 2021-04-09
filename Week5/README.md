@@ -92,3 +92,94 @@ f.close()
 
 ---
 Author: 109021331 CYou Liao
+
+
+<!--
+## 3/26 Week 5: Crawler 1
+
+Asia University 1092 Advanced Computer Programming 3/26-Week 5 Crawler
+
+## 課堂練習-Week5
+
+### Introduction-課堂練習-Week5
+
+請同學使用 Python抓蟲 去抓 王經篤老師 或 黃明祥老師的 publication 網頁資料並將資料寫入到資料檔。將操作過程以 Github Repository 的 Readme 進行記錄。將 Github link 上傳至系統
+
+### 程式流程-課堂練習-Week5
+
+1. 使用瀏覽器進入黃明祥老師的 publication [網頁](http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm)
+2. 使用瀏覽器功能「檢視原始碼」以獲得網頁的Html結構
+3. 將欲獲取資料之標籤名稱輸入進程式「Python」的bs4篩選條，如「soup.find_all('p', 'MsoNormal')」
+4. 程式的寫入流程需配合網頁中欲獲取資料部分的HTML結構進行
+5. 程式輸出「output-publication.txt」資料輸出檔
+
+## 程式碼-課堂練習-Week5
+
+~~~~python
+import requests as reqs
+from bs4 import BeautifulSoup
+
+url = 'http://isrc.ccs.asia.edu.tw/www/myjournal/myjournal.htm' # 黃明祥老師的連結
+r = reqs.get(url)
+if r.status_code==200:
+    r.encoding = 'big5'
+    f = open('output-publication.txt', 'w', encoding='utf8')
+    soup = BeautifulSoup(r.content, 'html.parser')
+    for p in soup.find_all('p', 'MsoNormal'):
+        f.write(p.text.replace('\t', '').replace('\n', '')+'\n')
+    f.close()
+~~~~
+
+### 檔案-課堂練習-Week5
+
+[Exercise.py](src/Exercise.py)
+
+### 輸出檔-課堂練習-Week5
+
+[output-publication.txt](src/output-publication.txt)
+
+---
+
+## 作業-Week5
+
+### Introduction-作業-Week5
+
+請同學使用 Python 爬蟲程式抓出亞大資工系 103 學年度所有的畢業專題資訊，並將資料寫入到資料檔。<https://csie.asia.edu.tw/project/semester-103> ps. 請開新的 Github repository 完成作業後將 Github link 上傳至系統
+
+### 程式流程-作業-Week5
+
+1. 使用瀏覽器進入[亞大資工系 103 學年度所有的畢業專題網站](https://csie.asia.edu.tw/project/semester-103)
+2. 使用瀏覽器功能「檢視原始碼」以獲得網頁的HTML結構
+3. 將欲獲取資料之標籤名稱輸入進程式「Python」的bs4篩選條，如「soup.find_all('div', 'tab-pane')」
+4. 程式的寫入流程需配合網頁中欲獲取資料部分的HTML結構進行
+5. 程式輸出「output-projects.txt」資料輸出檔
+
+### 程式碼-作業-Week5
+
+~~~~python
+import requests as reqs
+from bs4 import BeautifulSoup
+
+url = 'https://csie.asia.edu.tw/project/semester-103'
+r = reqs.get(url, verify=False)
+if r.status_code==200:
+    f = open('output-projects.txt', 'w', encoding='utf8')
+    soup = BeautifulSoup(r.content, 'html.parser')
+    for div in soup.find_all('div', 'tab-pane'):
+        f.write(div.find('h2').text+'\n')
+        for tr in div.find_all('tr'):
+            for td in tr.find_all('td'):
+                f.write(td.text.replace('\t', '').replace('\n', '')+'\t')
+            f.write('\n')
+        f.write('\n')
+    f.close()
+~~~~
+
+### 檔案-作業-Week5
+
+[Homework.py](src/Homework.py)
+
+### 輸出檔-作業-Week5
+
+[output-projects.txt](src/output-projects.txt)
+-->
