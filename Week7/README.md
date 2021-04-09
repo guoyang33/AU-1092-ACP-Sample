@@ -1,9 +1,9 @@
-# 3/26 第五週 | Week 5
+# 4/9 第七週 | Week 7
 
 ## 目錄 | Index
 <il>
-    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week5#課堂練習--exercise">課堂練習</a> (Exercise)</li>
-    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week5#作業--homework">作業</a> (Homework)</li>
+    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week7#課堂練習--exercise">課堂練習</a> (Exercise)</li>
+    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample/tree/main/Week7#作業--homework">作業</a> (Homework)</li>
 </il>
 
 # 課堂練習 | Exercise
