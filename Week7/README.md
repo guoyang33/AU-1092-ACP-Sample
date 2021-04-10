@@ -110,11 +110,11 @@ if __name__ == '__main__':
 
 ### 檔案-課堂練習-Week7
 
-[WordListDemo.py](src/WordListDemo.py)
+[WordListDemo.py](WordListDemo.py)
 
 ### 輸出檔-課堂練習-Week7
 
-[engWordList_1.csv](src/engWordList_1.csv)
+[engWordList_1.csv](engWordList_1.csv)
 
 ---
 
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
 1. 因為各學年專題列表的網址並不規則，所以我先從[歷屆專題](https://csie.asia.edu.tw/project)網站，把所需範圍的各網址抓下來存入列表urlx
 2. 對urlx迴圈逐一做請求和解析response
-3. 把格式化好的資料存入[projectList.csv](src/projectList.csv)
+3. 把格式化好的資料存入[projectList.csv](projectList.csv)
 
 ### 程式碼-作業-Week7
 
@@ -212,11 +212,11 @@ if __name__=='__main__':
 
 ### 檔案-作業-Week7
 
-[GetProjectList.py](src/GetProjectList.py)
+[GetProjectList.py](GetProjectList.py)
 
 ### 輸出檔-作業-Week7
 
-[projectList.csv](src/projectList.csv)
+[projectList.csv](projectList.csv)
 
 ---
 Author: 109021331 CYou Liao
