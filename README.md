@@ -30,26 +30,27 @@ Some simple problem try to find solution in [Notice](#注意--notice) subject, a
 * Week7/[GetProjectList.py](Week7/GetProjectList.py)
 * Week7/[projectList.csv.py](Week7/projectList.csv)
 
+---
+
 ## 3/26 第五週 | Week 5
 
-### 檔案 | Files - Week 5
+### 檔案 | Files --- Week 5
 
-<a href="Week5">資料夾</a> (File Directory)
+[資料夾](Week5) (File Directory)
 
-  ### <p>課堂練習 | Exercise</p>
-<il>
-  <li>Week5/<a href="Week5/Exercise.py">Exercise.py</a></li>
-  <li>Week5/<a href="Week5/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li>
-</il>
-  
-  ### <p>作業 | Homework</p>
-<il>
-  <li>Week5/<a href="Week5/Homework.py">Homework.py</a></li>
-  <li>Week5/<a href="Week5/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li>
-</il>
+### 課堂練習 | Exercise --- Week 5
 
+* Week5/[Exercise.py](Week5/Exercise.py)
+* Week5/[ExerciseEn.py](Week5/ExerciseEn.py) (Eng. Ver)
 
-# 3/19 第四週 | Week 4
+### 作業 | Homework --- Week 5
+
+* Week5/[Homework.py](Week5/Homework.py)
+* Week5/[HomeworkEn.py](Week5/HomeworkEn.py) (Eng. Ver)
+
+---
+
+## 3/19 第四週 | Week 4
 ## 檔案 | Files
 <a href="Week4">資料夾</a> (File Directory)
 
