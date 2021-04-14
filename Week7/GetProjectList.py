@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from WordListDemo import get_resource, parse_html
+from bs4 import BeautifulSoup
 import requests
 import csv
 import time
@@ -20,6 +20,15 @@ def generate_urls(start_page, end_page):
     else:
         print('catch urls error!!!')
     return urls
+
+def get_resource(url):
+    headers = {
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64: x64) ApplWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    }
+    return requests.get(url, headers=headers, verify=False)
+
+def parse_html(html_str):
+    return BeautifulSoup(html_str, 'lxml')
 
 def get_projects(soup, count):
     projects = []

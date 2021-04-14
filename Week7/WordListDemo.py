@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
+from bs4 import BeautifulSoup
 import requests
 import time
-from bs4 import BeautifulSoup
 import csv
 
 URL = 'https://www.majortests.com/word-lists/word-list-0{0}.html'

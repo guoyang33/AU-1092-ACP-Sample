@@ -1,35 +1,39 @@
 # 1092 Asia University Advanced Computer Programming Sample
+
 Code sample for Asia University 1092 Advanced Computer Programming.
-<br>
-<br>
-一些基本的問題先看下面的<a href="#注意--notice">注意</a>條目
-<br>
-Some simple problem try to find solution in <a href="#注意--notice">Notice</a> subject, at bottom of this page
+
+一些基本的問題先看下面的 [注意](#注意--notice) 條目
+
+Some simple problem try to find solution in [Notice](#注意--notice) subject, at bottom of this page
 
 ## 目錄 | Index
-<il>
-    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#49-第七週--week-7">4/9 第七週</a> (Week 7)</li>
-    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#326-第五週--week-5">3/26 第五週</a> (Week 5)</li>
-    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#319-第四週--week-4">3/19 第四週</a> (Week 4)</li>
-    <li><a href="https://github.com/guoyang33/AU-1092-ACP-Sample#312-第三週--week-3">3/12 第三週</a> (Week 3)</li>
-    <li><a href="#注意--notice">注意</a> (Notice)</li>
-</il>
 
-# 4/9 第七週 | Week 7
-## 檔案 | Files
-<a href="Week7">資料夾</a> (File Directory)
-<il>
-  <p>課堂練習 | Exercise</p>
-  <li>Week7/<a href="Week7/WordListDemo.py">WordListDemo.py</a></li>
-  <!-- <li>Week7/<a href="Week7/ExerciseEn.py">ExerciseEn.py</a> (Eng. Ver)</li> -->
-  <p></p>
-  <p>作業 | Homework</p>
-  <!-- <li>Week7/<a href="Week7/Homework.py">Homework.py</a></li> -->
-  <!-- <li>Week7/<a href="Week7/HomeworkEn.py">HomeworkEn.py</a> (Eng. Ver)</li> -->
-</il>
+* [4/9 第七週](#49-第七週--week-7) (Week 7)
+* [3/26 第五週](#326-第五週--week-5) (Week 5)
+* [3/19 第四週](#319-第四週--week-4) (Week 4)
+* [3/12 第三週](#312-第三週--week-3) (Week 3)
+* [注意](#注意--notice) (Notice)
 
-# 3/26 第五週 | Week 5
-## 檔案 | Files
+## 4/9 第七週 | Week 7
+
+### 檔案 | Files
+
+[資料夾](Week7) (File Directory)
+
+#### 課堂練習 | Exercise
+
+* Week7/[WordListDemo.py](Week7/WordListDemo.py)
+* Week7/[engWordList_1.csv](Week7/engWordList_1.csv)
+
+#### 作業 | Homework
+
+* Week7/[GetProjectList.py](Week7/GetProjectList.py)
+* Week7/[projectList.csv.py](Week7/projectList.csv)
+
+## 3/26 第五週 | Week 5
+
+### 檔案 | Files - Week 5
+
 <a href="Week5">資料夾</a> (File Directory)
 
   ### <p>課堂練習 | Exercise</p>
