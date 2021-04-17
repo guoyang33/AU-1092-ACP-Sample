@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
 #### 檔案-課堂練習 --- Week 8
 
-* [GetBookList.py](src/GetBookList.py)
+* [GetBookList.py](GetBookList.py)
 
 ---
-Author: 109021331 CYou Liao
+Author: 109021331 CYouLiao
