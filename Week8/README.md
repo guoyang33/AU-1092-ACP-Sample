@@ -1,11 +1,39 @@
-# -*- coding: utf-8 -*-
+# 109021331-chenyou-Crawler
 
-"""
- * 安裝模組：
- *  bs4
- *  fake_useragent
- *  requests
-"""
+## Index
+
+* [4/16 Week 8: 爬蟲3](#416-week-8-crawler-3)
+    1. [課堂練習](#課堂練習-----Week-8)
+        * [程式流程](#程式流程-課堂練習-----Week-8)
+        * [程式碼](#程式碼-課堂練習-----Week-8)
+        * [檔案](#檔案-課堂練習-----Week-8)
+
+---
+
+## 4/16 Week 8: Crawler 3
+
+Asia University 1092 Advanced Computer Programming 4/16 Week 8 Crawler
+
+參考：
+
+* [python - Blocked from scraping a website with Scrapy? - Stack Overflow](https://stackoverflow.com/a/59411327)
+* [python - How to find tag with particular text with Beautiful Soup? - Stack Overflow](https://stackoverflow.com/questions/9007653/how-to-find-tag-with-particular-text-with-beautiful-soup)
+
+### 課堂練習 --- Week 8
+
+#### Introduction-課堂練習 --- Week8
+
+請同學將課堂上的 博客來網路書店 爬蟲程式完成，並在 Reposity裡的 Readme.md 檔裡將練習過程記錄起來後將 該 Repository 的連結上傳至系統
+
+#### 程式流程-課堂練習 --- Week 8
+
+1. 取得搜尋結果
+2. 對每本書分別requests.get()
+3. 資料輸出
+
+#### 程式碼-課堂練習 --- Week 8
+
+~~~~python
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from random import randint
@@ -72,3 +100,11 @@ if __name__ == '__main__':
         url = generate_search_url(URL, sys.argv[1])
         booklist = web_scraping_bot(url)
         print(*booklist, sep='\n')
+~~~~
+
+#### 檔案-課堂練習 --- Week 8
+
+* [GetBookList.py](src/GetBookList.py)
+
+---
+Author: 109021331 CYou Liao
