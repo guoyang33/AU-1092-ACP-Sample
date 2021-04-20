@@ -2,6 +2,9 @@
 
 ## 目錄 | Index
 
+* [課堂練習 | Exercise](#課堂練習--exercise)
+* [作業 | Homework](#作業--homework)
+
 ---
 
 ## 課堂練習 | Exercise
@@ -222,6 +225,9 @@ Book1.showInfo()
 ~~~~
 
 ### 檔案-作業 --- Week 3
+
+* [Student.py](Student.py)
+* [Book.py](Book.py)
 
 ---
 Author: 109021331 CYouLiao
