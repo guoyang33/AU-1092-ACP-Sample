@@ -2,8 +2,8 @@
 
 ## 目錄 | Index
 
-* [課堂練習 | Exercise](#課堂練習--exercise)
-* [作業 | Homework](#作業--homework)
+* [課堂練習](#課堂練習--exercise)
+* [作業](#作業--homework)
 
 ---
 
