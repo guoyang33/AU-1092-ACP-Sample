@@ -116,6 +116,9 @@ King.showPosition()
 
 ### 檔案-課堂練習 --- Week 3
 
+* [Hero.py](Hero.py)
+* [Chess.py](Chess.py)
+
 ---
 
 ## 作業
