@@ -16,4 +16,5 @@ def GenRandint():
 if __name__=='__main__':
     if len(sys.argv)>1:
         random.seed(int(sys.argv[1]))
-    print(GenRandint())
+    for i in range(1, 2+1):
+        print('{0} -th Prime Random:\t{1}'.format(i, GenRandint()))
