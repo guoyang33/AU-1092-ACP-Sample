@@ -10,9 +10,8 @@ if __name__=='__main__':
         text.replace('\n', '')
         for word in text.split():
             if word not in wordDict:
-                wordDict[word] = 1
-            else:
-                wordDict[word] = wordDict[word] + 1
+                wordDict[word] = 0
+            wordDict[word] = wordDict[word] + 1
 
         for i in wordDict:
             print('{0}  =>  {1}'.format(i, wordDict[i]))
