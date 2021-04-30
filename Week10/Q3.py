@@ -1,22 +1,19 @@
 import sys
 import random
 
-def CheckPrime(n):
-    flag = True
-    for i in range(2, n//2):
-        if n%i == 0:
-            flag = False
-            break
-    return flag
+def CheckPrime(x):
+    for i in range(2, x//2):
+        if x%i == 0:
+            return False
+    return True
 
-def GenRandint(seed):
-
+def GenRandint():
+    num = random.randint(100, 1000)
+    while not CheckPrime(num):
+        num = random.randint(100, 1000)
+    return num
 
 if __name__=='__main__':
     if len(sys.argv)>1:
-        seed = sys.argv[1]
-    ri = random.randint(1, 100)
-    print(ri)
-    while ri != 100:
-        print(ri)
-    print(ri)
+        random.seed(int(sys.argv[1]))
+    print(GenRandint())
