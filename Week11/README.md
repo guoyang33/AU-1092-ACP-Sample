@@ -2,6 +2,10 @@
 
 ## 目錄 | Index
 
+* [說明](#說明--introduction)
+* [加密程式](#加密程式)
+* [解密程式](#解密程式)
+
 ## 說明 | Introduction
 
 以下範例是使用 random 函式庫中的 shuffle() 對文字以打散的形式達到加密的效果
@@ -11,6 +15,14 @@
 #### 檔案
 
 * [encode_msg.py](encode_msg.py)
+
+#### 執行
+
+使用指令
+
+~~~~sh
+python encode_msg.py [seed: 金鑰] [msg: 訊息]
+~~~~
 
 #### 程式碼
 
@@ -42,6 +54,14 @@ if __name__=='__main__':
 #### 檔案
 
 * [decode_msg.py](decode_msg.py)
+
+#### 執行
+
+使用指令
+
+~~~~sh
+python decode_msg.py [seed: 金鑰] [cipher: 加密訊息]
+~~~~
 
 #### 程式碼
 
