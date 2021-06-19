@@ -24,7 +24,7 @@ just only compair with these 4 plaintext (1234, password, abcdef, qwerty) and 3 
 
 ### File
 
-*[login-hash_guess.py](src/login-hash_guess.py)
+* [login-hash_guess.py](src/login-hash_guess.py)
 
 ### Execute
 
@@ -154,7 +154,7 @@ better using hash to encrypt the compair id and pw in program
 
 ### File
 
-*[login-tictactoe.py](src/login-tictactoe.py)
+* [login-tictactoe.py](src/login-tictactoe.py)
 
 ### Execute
 
