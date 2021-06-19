@@ -3,7 +3,7 @@
 ## Index
 
 * [Introduction](#introduction)
-* [Exercise: Login Form + Hash Guess](login-form--hash-guess)
+* [Exercise: Login Form + Hash Guess](#login-form--hash-guess)
 * [Exercise: Login Form + TicTacToe](#login-form--tictactoe)
 
 ## Introduction
